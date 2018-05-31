@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE quize (id INTEGER PRIMARY KEY, question TEXT, answer TEXT);
+INSERT INTO quize VALUES(1,'12*12 ?','134,144,154,164');
+INSERT INTO quize VALUES(2,'How many alphabets in ABCD?','23,24,25,26');
+INSERT INTO quize VALUES(3,'Whar is color of cobalt?','White,Blue,Green,Orange');
+INSERT INTO quize VALUES(4,'Which metal is heavier ?','Gold,Silver,Copper,Steel');
+INSERT INTO quize VALUES(5,'Which is the fastest animal on the world?','Camel,Cheetah,Tiger,Lion');
+INSERT INTO quize VALUES(6,'Which is smallest 3 digit number?','100,999,988,101');
+INSERT INTO quize VALUES(7,'Leap year has how many days?','365,366,367,368');
+INSERT INTO quize VALUES(8,' What is the normal time duration of Hockey Game?','65 minutes,70 minutes,75 minutes,80 minutes');
+INSERT INTO quize VALUES(9,' Zero degree centigrade equal to _________ degree Fahrenheit ? ','28,30,32,34');
+INSERT INTO quize VALUES(10,'What is the unit of power ?','Pascal,Watt,Tesla,Candela');
+COMMIT;
